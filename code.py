@@ -168,7 +168,7 @@ def save():
     # OR 
     # 2 - Move This Script To, And Run From The Location To Be Saved
     pathToLocation = ''
-    downloadDetails = '"' + title + '_' + str(start) + '_' + str(counter) + '.epub"'
+    downloadDetails = title + '_' + str(start) + '_' + str(counter) + '.epub'
     saveLocation = pathToLocation + downloadDetails
 
     print("Saving . . .")
